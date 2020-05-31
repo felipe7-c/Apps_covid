@@ -1,5 +1,5 @@
 import folium
-m=folium.Map(location=[45.5236, -122.6750])
+m=folium.Map(location=[45.5236, -123.6750])
 folium.CircleMarker(
     location=[45.5215, -122.6261],
     radius=50,
