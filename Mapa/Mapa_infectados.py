@@ -2,7 +2,7 @@ import pandas as pd
 import folium
 import numpy
 from folium.plugins import HeatMap
-df=pd.read_excel(r"C:/Users/Blogs/Downloads/new_teste.xlsx",error_bad_lines=False)
+df=pd.read_excel(r"C:\Users\Blogs\Desktop\SPACE_APPS\Apps_covid\Mapa/new_teste.xlsx",error_bad_lines=False)
 print(df)
 lat=df["lat"].to_list()
 long=df["lon"].to_list()
